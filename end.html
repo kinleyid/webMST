@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+#centeredArea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<script>
+var decoded = decodeURIComponent(window.location.search);
+pID = decoded.substring(decoded.indexOf('=')+1);
+</script>
+<center>
+<div id='centeredArea'>
+<p class="dialog">That's all!<br/>Thank you.</p>
+</div>
+</center>
+
+</body>
+</html>

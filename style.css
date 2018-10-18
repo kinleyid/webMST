@@ -1,0 +1,89 @@
+p {
+	font-family: verdana;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+.numbers {
+	font-size: 6vw;
+	display: none;
+	margin-top: 0.1vh;
+	margin-bottom: 0.1vh;
+}
+.dialog {
+	font-size: 2vw;
+}
+.score {
+	font-size: 4vw;
+	visibility: hidden;
+}
+.replay {
+	font-size: 6vw;
+	letter-spacing: 0.5em;
+}
+button {
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	padding: 2vmin 2vmin;
+	text-align: center;
+	margin: 0vw 1vw;
+	text-decoration: none;
+	display: inline;
+	font-size: 2vw;
+	font-family: verdana;
+	width: auto;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #e5e5e5;
+}
+input[type=text], select {
+    width: 4vw;
+    padding: 0vw 0vw;
+    margin: 2vh 0.3vw;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	font-size: 4vw;
+	text-align: center;
+}
+#dialogArea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#imageArea {
+    position: absolute;
+    margin: 0;
+    width: 100vw;
+    line-height: 100vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    border: 1px solid black;
+    display: inline;
+    vertical-align: middle;
+    max-width: 49vw;
+    max-height: 50vh;
+    padding: 0;
+    border: 0;
+}
+
+#feedbackArea {
+    position: absolute;
+    top: 75vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#buttonArea {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
