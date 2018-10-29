@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <p id="scoreArea" class="score" style="position:absolute; visibility=hidden">Score: 0</p>
+        <center>
+            <div id="dialogArea">
+                <p class="dialog">Loading...</p>
+            </div>
+
+            <div id="imageArea" style="display:none">
+                <img id="feedbackImageHolder"/><img id="imageHolder"/>
+            </div>
+            <div id='feedbackArea'></div>
+            <div id="buttonArea" style="display:none">
+                <p id="buttonInstructions" class="dialog">What type of item was that?</p>
+                <button onclick="evaluateSubmission()">Indoor</button><button onclick="evaluateSubmission()">Outdoor</button>
+            </div>
+        </center>
+        <script src="run.js"></script>
+    </body>
+</html>
